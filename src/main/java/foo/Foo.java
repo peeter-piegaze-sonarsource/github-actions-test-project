@@ -9,7 +9,7 @@ public class Foo {
         throw new IllegalStateException("Utility class");
     }
     
-    public static int div(int a, int b) throws UnsupportedOperationException {
+    public static int div(int a, int b) {
     	if (b == 0) {
     		throw new UnsupportedOperationException("Can't divide by zero!");
     	}
